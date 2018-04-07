@@ -8,6 +8,9 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "datatables.net": "^1.10.16",
+    "datatables.net-dt": "^1.10.16",
+    "jquery": "^3.3.1",
     "vue": "^2.5.13"
   },
   "devDependencies": {

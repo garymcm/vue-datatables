@@ -1,17 +1,18 @@
+
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>Vue with JQuery and DataTables Example</h1>
+    <Table/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Table from './components/Table'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Table
   }
 }
 </script>
